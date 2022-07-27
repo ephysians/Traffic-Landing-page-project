@@ -1,0 +1,615 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+/*............................ ABOUT US STYLING............................*/
+
+#section3 {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 780px;
+    top: 1300px;
+    mix-blend-mode: normal;
+    background: #FFFFFF;
+}
+
+
+.crowd-pics {
+    position: relative;
+    height: 580px;
+    width: 580px;
+    left: 210px;
+    bottom: 80px;
+}
+
+
+.L-abt {
+    position: absolute;
+    width: 10%;
+    top: 50px;
+    height: 7px;
+    left: 150px;
+}
+
+
+.Abt-btn {
+    position: absolute;
+    width: 120px;
+    left: 135px;
+    height: 50px;
+    font-family: 'Sora';
+    font-style: normal;
+    top: 210px;
+    background: #2081E2;
+    color: #FFFFFF;
+    border-radius: 7px;
+    border: none
+}
+
+.learn-more {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.abt-us {
+    box-sizing: border-box;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-size: 30px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.abt-class {
+
+    position: relative;
+    box-sizing: border-box;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    left: 20px;
+    top: 110px;
+}
+
+
+.sec-3 {
+    position: absolute;
+    top: 150px;
+    display: flex;
+}
+
+
+/* .............................OUR SERVICE STYLING...................... */
+
+#section3b{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background: #E2E5EF33;
+    height:1050px;
+    top: 1200px;
+}
+
+
+.our-services {
+    position: absolute;
+    letter-spacing: 1px;
+    left: 41%;
+    top: 75px;
+    font-size: 35px;
+    font-family: 'Sora';
+    font-style: normal;
+    color: #2081E2;
+    font-weight: 900;
+}
+
+
+.grid-container div {
+    padding: 4em;
+    border: 2px solid #FAE000CC;
+    box-shadow: 0px 14.0667px 56.2667px rgba(0, 0, 0, 0.1);
+}
+
+.grid1h1 {
+    color: #2081E2;
+}
+
+.stringp {
+    position: absolute;
+    font-size: 11px;
+    color: #2081E2;
+}
+
+
+.arrow1 {
+    position: relative;
+    width: 15px;
+}
+
+.grid-container {
+    position: absolute;
+    top: 220px;
+    left: 12%;
+    height: 100vh;
+    border: 25px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: 'a b c'
+        'd e f';
+    gap: 60px;
+
+}
+
+.grid-item1 {
+    background: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    grid-area: a;
+}
+
+.grid-item2 {
+    background: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    grid-area: b;
+}
+
+.grid-item3 {
+    background: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    grid-area: c;
+}
+
+.grid-item4 {
+    background: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    grid-area: d;
+}
+
+.grid-item5 {
+    background: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    grid-area: e;
+}
+
+.grid-item6 {
+    background: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    grid-area: f;
+}
+
+.a1 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    bottom: 208px;
+}
+
+.a2 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .....-----------------...JOIN THE PARTY STYLING....----------------... */
+
+
+#section3C {
+    position: relative;
+    width: 100%px;
+    height: 300vh;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    top: 1200px;
+}
+
+.logistic {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+}
+
+.logistic-img {
+    box-sizing: border-box;
+    position: absolute;
+    height: 520px;
+    width: 590px;
+    left: 100px;
+    top: 180px;
+}
+
+
+.join-party1 {
+    position: absolute;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    left: 54%;
+    top: 10%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 140px;
+    color: #2081E2;
+}
+
+
+.join-party2 {
+    position: absolute;
+    left: 54%;
+    top: 17%;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.get-info1 {
+    position: absolute;
+    left: 54%;
+    top: 22%;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.get-info2 {
+    position: absolute;
+    box-sizing: border-box;
+    left: 54%;
+    top: 25%;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+.get-start-btn {
+    position: absolute;
+    width: 160px;
+    left: 54%;
+    height: 60px;
+    font-family: 'Sora';
+    font-style: normal;
+    top: 29%;
+    background: #2081E2;
+    color: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+}
+
+.get-start-btn1 {
+    position: absolute;
+    text-decoration: none;
+    color: #FFFFFF;
+    left: 28%;
+    top: 19px;
+}
+
+
+.personal-img {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 160px;
+    top: 57%;
+}
+
+
+.vek1a {
+    top: 66%;
+    left: 115px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.vek2a {
+    top: 66%;
+    left: 430px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.vect1 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 56%;
+    left: 120px;
+}
+
+.vkt {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 75%;
+    left: 420px;
+}
+
+
+.vx1 {
+    top: 66.39%;
+    left: 448px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+.vx2 {
+    top: 66.90%;
+    left: 130px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+
+.v4png {
+    position: absolute;
+    height: 10px;
+    top: 79%;
+    left: 307px;
+}
+
+.v3png {
+    position: absolute;
+    height: 10px;
+    top: 80.2%;
+    left: 220px;
+}
+
+.v5png {
+    position: absolute;
+    height: 10px;
+    top: 79.6%;
+    left: 202px;
+    width: 120px;
+}
+
+.grid2 {
+    position: absolute;
+    display: grid;
+    grid-template-areas: 'a b'
+        'c d'
+        'e f';
+    gap: 20px;
+    font-size: 8px;
+    top: 58%;
+    left: 32%
+}
+
+
+.ellip1 {
+
+    background: #FFF179;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    grid-area: a;
+
+}
+
+.ellip2 {
+
+    background: #FFF179;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    grid-area: b;
+}
+
+.ellip3 {
+
+    background: #FFF179;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    grid-area: c;
+}
+
+.ellip4 {
+
+    background: #FFF179;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    grid-area: d;
+}
+
+.ellip5 {
+
+    background: #FFF179;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    grid-area: e;
+}
+
+.ellip6 {
+
+    background: #FFF179;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    grid-area: f;
+}
+
+
+
+.testimonia-writeup {
+    position: absolute;
+    top: 57%;
+    left: 58%;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+
+.testimonia1 {
+    position: absolute;
+    width: 40px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.6px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #2081E2;
+}
+
+.testimonia3 {
+    position: relative;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    top: 25px;
+    color: #000000;
+}
+
+.tetimonia4 {
+    position: relative;
+    top: 70px;
+}
+
+
+.tetimonia14,
+.tet {
+    color: #2081E2;
+}
+
+.tetimonia14,
+.tet1 {
+    font-size: 18px;
+}
+
+
+.quote1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 500px;
+    bottom: 280px;
+}
+
+.str5{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 180px;
+    bottom: 300px;
+}
+
+.str4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 285px;
+    bottom: 300px;
+
+
+}.str3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 330px;
+    bottom: 300px;
+
+
+}.str2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 375px;
+    bottom: 300px;
+
+
+}.str1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1px;
+    bottom: 300px;
+}
+
+.shuttler-img{
+    position:relative;
+    height: 100px;
+    width: 100px;
+    bottom:90px;
+    left: 250px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
